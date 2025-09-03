@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#F7F4F3;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.container h1 {
+    font-size: 2rem;
+    color: #5b2333;
+    margin-top: 40px;
+}
+
+.container>a {
+    position: absolute;
+    top: 50px;
+    right: 240px;
+    padding: 10px 15px;
+    background: #5b2333;
+    color: #F7F4F3;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+.container>a:hover {
+    background: #88394F;
+}
+
+hr {
+    margin-top: 40px;
+    background-color: #5b2333;
+    border-color: #5b2333;
+    height: 0.4px;
+}
+
+.post {
+    padding: 10px;
+    margin-top: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.post-image img {
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.post-header h3 {
+    font-size: 1.5rem;
+    color: #5b2333;
+    margin: 0 0 4px 0;
+    display: inline;
+}
+
+.post-header h4 {
+    font-size: 1.5rem;
+    color: #5b2333;
+    text-transform: uppercase;
+    margin: 0 0 4px 0;
+    display: inline;
+}
+
+.post-header p {
+    color: #5b2333;
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.post-header {
+    flex: 1;
+}
+
+.post-actions a {
+    color: #5b2333;
+    font-size: 1.5rem;
+}
+
+.post-actions a:hover {
+    color: #88394F;
+}
+
+.post-actions button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #5b2333;
+    font-size: 1.5rem;
+}
+
+.post-actions button:hover {
+    color: #88394F;
+}
+
+/* Create Post Form Styling */
+
+.create-container {
+    max-width: 650px;
+    margin: 5px auto;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+.create-container form {
+    background: #5b2333;
+    border-radius: 6px;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.create-container form label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #F7F4F3;
+}
+
+.create-container form input[type="text"],
+.create-container form input[type="file"],
+.create-container form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.create-container form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.create-container>a {
+    padding: 8px 12px;
+    background: #5b2333;
+    color: #F7F4F3;
+    font-size: 1rem;
+    border-radius: 25px;
+    margin-right: 5px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.create-container>a:hover {
+    background: #88394F;
+}
+
+.btn {
+    background: #5b2333;
+    color: #f9f8f6;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 500px;
+    text-decoration: none;
+    border: none;
+}
+
+.btn:hover {
+    background: #88394F;
+}
+
+
+
+/*EDIT FORM STYLING*/
+
+.edit-container {
+    max-width: 650px;
+    margin: 5px auto;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+.edit-container form {
+    background: #5b2333;
+    border-radius: 6px;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.edit-container form label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #F7F4F3;
+}
+
+.edit-container form input[type="text"],
+.edit-container form input[type="file"],
+.edit-container form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.edit-container form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.edit-container>a {
+    padding: 8px 12px;
+    background: #5b2333;
+    color: #F7F4F3;
+    font-size: 1rem;
+    border-radius: 25px;
+    margin-right: 5px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.edit-container>a:hover {
+    background: #88394F;
+}
+
+.btn-update {
+    background: #5b2333;
+    color: #f9f8f6;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 500px;
+    text-decoration: none;
+    border: none;
+}
+
+.btn-update:hover {
+    background: #88394F;
+}
